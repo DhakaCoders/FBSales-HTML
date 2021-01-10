@@ -10,6 +10,25 @@
 	margin-left: auto;
 	font-size: 24px;
 }
+.hdr-tel a{
+	color: #4e4e4e;
+	display: flex;
+	align-items: center;
+	margin-right: 25px;
+}
+.hdr-time{
+	display: flex;
+	align-items: center;
+}
+.hdr-time i,
+.hdr-tel a i{
+	margin-right: 13px;
+}
+.hdr-rgt{
+	font-family: 'Graphik-Medium';
+	font-size: 24px;
+	line-height: 1;
+}
 
 .bnr-sky-bg{
 	height: 350px;
@@ -19,9 +38,17 @@
 .bnr-sec-cntlr{
 	margin-top: -295px;
 	background: #f2fafd;
+	border-radius: 10px 10px 0 0;
 }
-
-
+.bnr-des{
+	padding: 75px 0 90px;
+	max-width: 835px;
+	width: 100%;
+	text-align: center;
+}
+.bnr-des h1{
+	font-family: 'SupriaSans-Heavy';
+}
 
 
 .fl-footer-wrap{
@@ -82,3 +109,12 @@
 .fl-ftr-des p{
 	font-size: 14px;
 }
+
+
+@media(max-width: 1599px){
+  .hdr-rgt{
+    font-size: 22px;
+  }
+}
+
+
