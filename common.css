@@ -189,7 +189,7 @@ img {
 }
 p { margin: 0; margin-bottom: 30px; }
 a { word-wrap: break-word } 
-strong { font-family: 'SupriaSans-Bold'; }
+strong,b { font-family: 'SupriaSans-Bold'; }
 em,i{
   font-family: 'SupriaSans-RegularItalic';
 }
