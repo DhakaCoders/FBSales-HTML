@@ -27,7 +27,9 @@
 	clear: left;
 }
 
-
+.fbss-sec-1-grd-item-img-ctlr{
+	border: 20px solid red;
+}
 .fbss-sec-1-grd-item-img{
 	min-height: 280px;
 }
