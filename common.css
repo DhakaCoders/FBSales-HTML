@@ -341,7 +341,7 @@ h6 {
     }
     p br,
     br{
-        display: none;
+        display: none!important;
     }
 }
 
