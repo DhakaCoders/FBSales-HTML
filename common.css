@@ -129,7 +129,7 @@ a,button,input {
   border: 0;
   -ms-transition: all .3s ease;
   -webkit-transition: all .3s ease;
-  transition: all .3s ease
+  transition: all .3s ease;
 }
 a,a:hover,a:focus,button:hover,button:focus {
   text-decoration: none;
@@ -139,7 +139,7 @@ body {
   background-color: #fff;
   color: #191919;
   font-size: 24px;
-  line-height: 1.2;
+  line-height: 30px;
   font-family: 'SupriaSans-Regular';
 }
 img {
@@ -187,11 +187,16 @@ img {
 .show-xs {
   display: none!important
 }
-p { margin: 0; margin-bottom: 30px; }
+p { line-height: 1.2; margin: 0; margin-bottom: 30px; }
 a { word-wrap: break-word } 
 strong,b { font-family: 'SupriaSans-Bold'; }
 em,i{
   font-family: 'SupriaSans-RegularItalic';
+}
+.fl-transition{
+  transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+  -ms-transition: all 0.5s;
 }
 .plr-30 {
   padding-left: 30px!important;
