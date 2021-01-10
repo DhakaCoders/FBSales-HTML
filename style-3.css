@@ -35,8 +35,8 @@
 .fbss-sec-1-grd-item{
 	padding: 20px 20px 0 20px;
 	border-radius: 8px;
-	-webkit-box-shadow: 1px 1px 20px 5px rgba(245,245,245,0.75); 
-box-shadow: 1px 1px 20px 5px rgba(245,245,245,0.75);
+	-webkit-box-shadow: 2px 2px 9px 10px rgba(245,245,245,0.9); 
+	box-shadow: 2px 2px 9px 10px rgba(245,245,245,0.9);
 }
 .fbss-sec-1-grd-item-img-ctlr{
 	border-radius: 8px;
