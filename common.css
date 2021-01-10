@@ -286,6 +286,9 @@ h6 {
   .container{
     max-width: 1170px;
   }
+  body{
+    font-size: 22px;
+  }
 }
 
 

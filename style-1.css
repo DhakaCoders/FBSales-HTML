@@ -11,6 +11,12 @@
 	font-size: 24px;
 }
 
+.hdr-rgt{
+	font-family: 'Graphik-Medium';
+	font-size: 24px;
+	line-height: 1;
+}
+
 .bnr-sky-bg{
 	height: 350px;
 	background: #10b3f0;
@@ -82,3 +88,12 @@
 .fl-ftr-des p{
 	font-size: 14px;
 }
+
+
+@media(max-width: 1599px){
+  .hdr-rgt{
+    font-size: 22px;
+  }
+}
+
+
