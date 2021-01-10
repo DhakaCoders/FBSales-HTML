@@ -27,9 +27,15 @@
 	clear: left;
 }
 
+
+.fbss-sec-1-grd-item{
+	padding: 20px 20px 0 20px;
+	border-radius: 8px;
+}
 .fbss-sec-1-grd-item-img-ctlr{
-	border: 20px solid red;
+	border-radius: 8px;
 }
 .fbss-sec-1-grd-item-img{
 	min-height: 280px;
+	border-radius: 8px;
 }
