@@ -171,7 +171,7 @@ img {
   width: 100%;
   margin: 0 auto;
 }
-.container {
+.container{
   max-width: 1370px;
   width: 100%;
 }
@@ -272,6 +272,16 @@ h6 {
   line-height: 1.2;
   font-family: 'PTSerif-Bold';
 } 
+
+@media(max-width: 1599px){
+  .fl-page-bdy-controller{
+    max-width: 1200px;
+  }
+  .container{
+    max-width: 1170px;
+  }
+}
+
 
 @media(max-width: 1199px){
     .hide-md{
