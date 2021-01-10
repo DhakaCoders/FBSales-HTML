@@ -178,7 +178,7 @@ img {
   z-index: 10;
 }
 .fl-page-bdy-controller{
-  max-width: 1400px;
+  max-width: 1405px;
   width: 100%;
   margin: 0 auto;
   -webkit-box-shadow: 0 2px 5px 2px rgba(0,0,0,0.3);
@@ -189,7 +189,7 @@ img {
   position: relative;
 }
 .container{
-  max-width: 1370px;
+  max-width: 1385px;
   width: 100%;
 }
 .fl-text-module{
@@ -255,6 +255,9 @@ ul.reset-list,
 }
 .color-blue{
   color: #008abe;
+}
+.color-white{
+  color: #ffffff;
 }
 .inline-bg{
   background-repeat: no-repeat !important;

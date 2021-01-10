@@ -1,3 +1,6 @@
+.ppr-10{
+  padding: 0 10px 0 0;
+}
 .fbsn-section1{
 
 }
@@ -46,6 +49,9 @@
 	border-bottom-right-radius: 35px;
 	position: relative;
 	overflow: hidden;
+	-webkit-box-shadow:  4px 6px 7px 0px rgba(191, 191, 191, 0.35);
+	-moz-box-shadow:    4px 6px 7px 0px rgba(191, 191, 191, 0.35);
+	box-shadow:         4px 6px 7px 0px rgba(191, 191, 191, 0.35);
 }
 .fbsn-sss-item > p:last-child,
 .fbsn-sss-item p strong:last-child{
@@ -55,5 +61,72 @@
 	position: absolute;
 	top: -30px;
 	right: -30px;
+	z-index: 4;
+}
+
+.fbsn-section4{
+	background: #ebfaff;
+	padding-top: 30px;
+}
+.fbsn-section5{
+	padding-top: 30px;
+}
+.fbsn-section6{
+	padding-top: 30px;
+	min-height: 800px;
+}
+
+.fbsn-sec6-cntlr{
+	text-align: center;
+}
+
+.fbsn-sec6-sub-title{
+
+}
+.fbsn-sec6-title{
+	margin-bottom: 55px;
+	padding: 5px 30px;
+	background: #10b3f0;
+	text-shadow: 2px 2px 3px #1488b4;
+	display: inline-block;
+	text-align: center;
+}
+
+.fbsn-section7{
+	padding-top: 30px;
+	background: #0fafea;
+}
+.fbsn-sec7-desc p{
+	color: #fff;
+}
+.fbsn-section8{
+	padding-top: 30px;
+}
+.fbsn-sec8-title{
+	margin-bottom: 
+}
+
+.fbsn-section9{
+/*	background: #ebfaff;*/
+	padding-top: 30px;
+	background-position: bottom right!important;
+	background-repeat: no-repeat!important;
+	background-size: cover!important;
+	position: relative;
+}
+.fbsn-sec9-cntlr{
+	position: relative;
+}
+.fbsn-sec9-img{
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	width: 60%;
+	z-index: 1;
+}
+.fbsn-sec9-desc{
+	float: left;
+	width: 50%;
 	z-index: 2;
 }
