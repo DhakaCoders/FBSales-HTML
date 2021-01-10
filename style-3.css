@@ -1,7 +1,8 @@
 .fbss-sec-1{
 	padding-top: 30px;
 }
-.fbss-sec-1-enty-hdr{
+.fbss-sec-1-enty-hdr,
+.fbss-sec-2-enty-hdr{
 	text-align: center;
 }
 .fbss-sec-1-enty-hdr h2{
