@@ -39,18 +39,43 @@
 	margin-top: -295px;
 	background: #f2fafd;
 	border-radius: 10px 10px 0 0;
+	position: relative;
 }
 .bnr-des{
 	padding: 75px 0 90px;
 	max-width: 835px;
 	width: 100%;
 	text-align: center;
+	position: relative;
+	z-index: 2;
 }
 .bnr-des h1{
 	font-family: 'SupriaSans-Heavy';
 }
+.bnr-des h3{
+	font-family: 'SupriaSans-Heavy';
+	color: #008abe;
+}
 
+.bnr-des h2{
+	 font-family: 'SupriaSans-BoldItalic';
+}
 
+.bnr-img{
+	position: absolute;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	z-index: 1;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: right bottom;
+	border-radius: 10px 10px 0 0;
+}
+.bnr-img img{
+	display: none;
+}
 .fl-footer-wrap{
 	background: #0a3f53;
 	color: #ffffff;
