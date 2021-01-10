@@ -76,6 +76,10 @@
 	margin-bottom: 25px;
 }
 
+.fbss-sec-2-text-module{
+	padding-right: 2px;
+}
+
 
 
 .fbss-sec-3{
@@ -84,7 +88,7 @@
 
 .fbss-sec-3-img{
 	min-height: 740px;
-	margin-left: -30px;
+	margin-left: -26px;
 }
 
 .fbss-sec-3-text-module{
@@ -111,4 +115,8 @@
 .fbss-sec-5-img{
 	text-align: center;
 	padding-bottom: 10px;
+}
+
+.fbss-sec-5-text-module{
+	padding-right: 30px;
 }
