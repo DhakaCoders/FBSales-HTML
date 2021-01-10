@@ -87,6 +87,11 @@
 .fl-pkg-section-1 .pkg-area-con-bg{
     padding-top: 0;
 }
+
+.fl-pkg-section-1{
+    padding-top: 45px;
+}
+
 .fl-pkg-sec-ftr-des{
     padding-top: 65px;
     text-align: left;
@@ -394,15 +399,17 @@
 	background: #0a3f53;
 	color: #ffffff;
 	text-align: center;
-	padding: 220px 0 30px;
+	padding: 225px 0 30px;
     margin-top: -225px;
+    padding-bottom: 55px;
 }
 
 .fl-footer-inner{
-	max-width: 970px;
+	max-width: 1025px;
 	margin-left: auto;
 	margin-right: auto;
 	width: 100%;
+    padding-top: 45px;
 }
 
 .fl-ftr-nav ul {
@@ -411,8 +418,8 @@
 .fl-ftr-nav ul li {
     padding: 0 9px;
     position: relative;
-    font-size: 20px;
-    line-height: 22px;
+    font-size: 18px;
+    line-height: 1;
 }
 .fl-ftr-nav ul li:first-child {
     padding-left: 0;
@@ -440,7 +447,6 @@
 }
 .fl-ftr-nav ul li a {
     color: #fff;
-    font-family: 'Montserrat-Medium';
 }
 .fl-copyright p{
 	font-size: 14px;
@@ -448,6 +454,8 @@
 }
 .fl-ftr-des p{
 	font-size: 14px;
+    font-family: 'SupriaSans-Light';
+    margin-bottom: 0;
 }
 
 
