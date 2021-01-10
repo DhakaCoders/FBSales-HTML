@@ -84,6 +84,7 @@ box-shadow: 1px 1px 20px 5px rgba(245,245,245,0.75);
 
 .fbss-sec-3-img{
 	min-height: 740px;
+	margin-left: -30px;
 }
 
 .fbss-sec-3-text-module{
@@ -98,7 +99,9 @@ box-shadow: 1px 1px 20px 5px rgba(245,245,245,0.75);
 
 
 
-
+.fbss-sec-5{
+	padding-bottom: 45px;
+}
 .fbss-sec-5-ctlr{
 	padding: 80px 60px 130px 75px;
 }
