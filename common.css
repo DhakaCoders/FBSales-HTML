@@ -168,6 +168,9 @@ img {
   max-width: 1370px;
   width: 100%;
 }
+.fl-text-module{
+
+}
 .hide-md {
   display: block!important
 }
@@ -225,6 +228,14 @@ ul.reset-list,
 .reset-list li:before,
 .reset-slect ul li:before{
   content: none!important;
+}
+.color-blue{
+  color: #008abe;
+}
+.inline-bg{
+  background-repeat: no-repeat !important;
+  background-position: center !important;
+  background-size: cover!important;
 }
 .plr-30 {
   padding-left: 30px!important;
