@@ -193,6 +193,9 @@ strong,b { font-family: 'SupriaSans-Bold'; }
 em,i{
   font-family: 'SupriaSans-RegularItalic';
 }
+u{
+  text-decoration: underline;
+}
 .fl-transition{
   transition: all 0.5s;
   -webkit-transition: all 0.5s;
@@ -286,7 +289,8 @@ h6 {
     h4 {
       font-size: 20px;
     }
-    p br{
+    p br,
+    br{
         display: none;
     }
 }
