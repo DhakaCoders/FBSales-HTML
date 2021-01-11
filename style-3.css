@@ -33,14 +33,14 @@
 
 
 .fbss-sec-1-grd-item{
-	padding: 20px 20px 0 20px;
+	padding: 18px 18px 0 18px;
 	border-radius: 8px;
 	-webkit-box-shadow: 2px 2px 9px 10px rgba(245,245,245,0.9); 
 	box-shadow: 2px 2px 9px 10px rgba(245,245,245,0.9);
 }
 .fbss-sec-1-grd-item-img-ctlr{
 	border-radius: 8px;
-	padding-bottom: 20px;
+	padding-bottom: 18px;
 }
 .fbss-sec-1-grd-item-img{
 	min-height: 280px;
@@ -52,7 +52,7 @@
 
 .fbss-sec-1-grd-item-des{
 	padding-bottom: 1px;
-	min-height: 255px;
+	min-height: 210px;
 }
 .fbss-sec-1-grd-item-des h6{
 	font-family: 'SupriaSans-Bold';
@@ -87,8 +87,8 @@
 }
 
 .fbss-sec-3-img{
-	min-height: 740px;
-	margin-left: -26px;
+	min-height: 660px;
+    margin-left: -30px;
 }
 
 .fbss-sec-3-text-module{
@@ -107,7 +107,7 @@
 	padding-bottom: 45px;
 }
 .fbss-sec-5-ctlr{
-	padding: 80px 60px 130px 75px;
+	padding: 80px 60px 110px 75px;
 }
 .fbss-sec-5-enty-hdr h2{
 	margin-bottom: 30px;
@@ -118,7 +118,7 @@
 }
 
 .fbss-sec-5-text-module{
-	padding-right: 30px;
+	padding-right: 15px;
 }
 .fbss-sec-5-ctlr{
 	background-repeat: no-repeat!important;
