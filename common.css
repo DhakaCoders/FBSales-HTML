@@ -404,6 +404,12 @@ h6 {
       margin: 0;
       padding-bottom: 30px;
     }
+    .pull-right{
+      float: initial!important;
+    }
+    .pull-left{
+      float: initial!important;
+    }
 }
 
 
