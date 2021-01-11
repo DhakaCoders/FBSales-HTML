@@ -120,3 +120,8 @@
 .fbss-sec-5-text-module{
 	padding-right: 30px;
 }
+.fbss-sec-5-ctlr{
+	background-repeat: no-repeat!important;
+	background-position: center center!important;
+	background-size: 100% 100%!important;
+}
