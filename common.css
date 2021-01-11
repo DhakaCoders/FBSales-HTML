@@ -286,22 +286,22 @@ ul.reset-list,
 }
 
 h1 {
-  font-size: 60px;
+  font-size: 50px;
 }
 h2 {
-  font-size: 54px;
-}
-h3 {
-  font-size: 47px;
-}
-h4 {
   font-size: 44px;
 }
+h3 {
+  font-size: 37px;
+}
+h4 {
+  font-size: 34px;
+}
 h5 {
-  font-size: 38px;
+  font-size: 28px;
 }
 h6 {
-  font-size: 30px;
+  font-size: 20px;
 }
 
 .h1,.h2,.h3,.h4,.h5,.h6,h1,h2,h3,h4,h5,h6 {
@@ -313,27 +313,8 @@ h6 {
 } 
 
 @media(max-width: 1599px){
-  body{
-    font-size: 20px;
-  }
-  h1 {
-    font-size: 50px;
-  }
-  h2 {
-    font-size: 44px;
-  }
-  h3 {
-    font-size: 37px;
-  }
-  h4 {
-    font-size: 34px;
-  }
-  h5 {
-    font-size: 28px;
-  }
-  h6 {
-    font-size: 20px;
-  }
+  
+  
 }
 
 

@@ -129,7 +129,7 @@
 
 
 @media(max-width: 1599px){
-	.fbss-sec-1-grd-item-des{
+	/*.fbss-sec-1-grd-item-des{
 		min-height: 210px;
 	}
 	.fbss-sec-3-img{
@@ -141,13 +141,13 @@
 	}
 	.fbss-sec-5-ctlr {
 	    padding: 80px 60px 110px 75px;
-	}
+	}*/
   
 }
 
 
 @media(max-width: 1199px){
-    .fbss-sec-1-enty-hdr h2, 
+    /*.fbss-sec-1-enty-hdr h2, 
     .fbss-sec-2-enty-hdr h2 {
 	    margin-bottom: 35px;
 	}
@@ -172,7 +172,7 @@
 	}
 	.fbss-sec-5-text-module {
 	    padding-right: 0px;
-	}
+	}*/
 }
 @media(max-width: 991px){
     
