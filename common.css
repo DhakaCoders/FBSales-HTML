@@ -319,6 +319,9 @@ h6 {
 
 
 @media(max-width: 1199px){
+  body{
+    font-size: 17px;
+  }
     .hide-md{
       display: none!important;
     }
@@ -343,7 +346,7 @@ h6 {
 }
 @media(max-width: 1023px){
   body{
-    font-size: 17px;
+    font-size: 18px;
   }
   p br,
   br{
@@ -420,9 +423,6 @@ h6 {
   }
 }
 @media(max-width: 991px){
- body{
-  font-size: 18px;
-}
 
     h1 {
       font-size: 44px;
