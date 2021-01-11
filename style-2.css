@@ -1,6 +1,9 @@
 .ppr-15{
   padding: 0 15px 0 0;
 }
+.ppr-5{
+  padding: 0 5px 0 0;
+}
 .fbsn-section1{
 
 }
@@ -44,7 +47,7 @@
 	margin-bottom: 33px;
 }
 .fbsn-sss-item{
-	padding: 25px 33px 0 25px;
+	padding: 25px 35px 0 25px;
 	background: #f2f6f7;
 	border-top-left-radius: 35px;
 	border-bottom-right-radius: 35px;
