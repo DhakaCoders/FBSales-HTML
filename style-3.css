@@ -201,7 +201,7 @@
 
 @media(max-width: 991px){
     .fbss-sec-1-grd-item-des {
-	    height: 210px;
+	    height: auto;
 	}
 	
 	.fbss-sec-5-enty-hdr h2 {
@@ -266,12 +266,8 @@
 	
 }
 @media(max-width: 479px){
-	.fbss-sec-1-grd-item-des {
-	    height: 280px;
-	}
+
 }
 @media(max-width: 359px){
-	.fbss-sec-1-grd-item-des {
-	    height: 320px;
-	}
+
 }
