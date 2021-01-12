@@ -312,8 +312,10 @@ h6 {
   margin-bottom: 20px;
 } 
 
-@media(max-width: 1599px){
-  
+@media(max-width: 1260px){
+  .fl-page-bdy-controller{
+    max-width: 100%;
+  }
   
 }
 
