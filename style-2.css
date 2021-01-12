@@ -13,6 +13,7 @@
 .fbsn-section1-cntlr strong{
 	font-family: 'PTSerif-BoldItalic';
 	font-size: 30px;
+	line-height: 1.1;
 }
 .fbsn-section1-title{
 	font-family: 'PTSerif-BoldItalic';
@@ -224,6 +225,7 @@
 		font-size: 20px;
 		margin-bottom: 15px;
 		display: inline-block;
+		line-height: 1.2;
 	}
 	.fbsn-sss-item {
 		padding: 25px 15px 0 15px;
