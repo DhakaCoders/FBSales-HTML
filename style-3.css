@@ -213,5 +213,12 @@
 		border-radius: 5px;
 		background-color: #fffbf5;
 	}
+	.fbss-sec-1-grd-item-img{
+		background-image: none!important;
+		min-height: initial;
+	}
+	.fbss-sec-1-grd-item-img img{
+		display: block;
+	}
 
 }
