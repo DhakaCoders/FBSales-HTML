@@ -328,6 +328,9 @@ h6 {
     .show-md{
       display: block!important;
     }
+    .pb-md-20{
+      padding-bottom: 20px;
+    }
     h1 {
       font-size: 46px;
     }
@@ -351,6 +354,9 @@ h6 {
   p br,
   br{
     display: none!important;
+  }
+  .pb-md-20{
+    padding-bottom: 0;
   }
   .image-center-sm{
     text-align: center;
