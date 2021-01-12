@@ -181,9 +181,9 @@ img {
   max-width: 1200px;
   width: 100%;
   margin: 0 auto;
-  -webkit-box-shadow: 0 2px 5px 2px rgba(0,0,0,0.3);
-  -moz-box-shadow: 0 2px 5px 2px rgba(0,0,0,0.3);
-  box-shadow: 0 2px 5px 2px rgba(0,0,0,0.3);
+  -webkit-box-shadow: 0 3px 5px 2px rgba(0,0,0,0.3);
+  -moz-box-shadow: 0 3px 5px 2px rgba(0,0,0,0.3);
+  box-shadow: 0 3px 5px 2px rgba(0,0,0,0.3);
   background: #fff;
   border-radius: 10px;
   position: relative;
@@ -428,7 +428,7 @@ h6 {
     padding-bottom: 24px;
 }
 .pkg-area-con-bg{
-    padding: 45px 0 60px;
+    padding: 45px 0 50px;
     background-size: cover!important;
     background-position: center center;
 }
