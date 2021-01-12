@@ -101,11 +101,11 @@
 }
 
 .fbsn-sec6-sub-title{
-
+	margin-bottom: 15px;
 }
 .fbsn-sec6-title{
 	margin-bottom: 55px;
-	padding: 5px 30px;
+	padding: 5px 20px;
 	background: #10b3f0;
 	text-shadow: 2px 2px 3px #1488b4;
 	display: inline-block;
@@ -124,7 +124,9 @@
 .fbsn-sec8-title{
 	margin-bottom: 
 }
-
+.fbsn-sec8-img{
+	margin-left: -30px;
+}
 .fbsn-section9{
 /*	background: #ebfaff;*/
 	padding-top: 30px;
