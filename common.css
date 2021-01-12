@@ -213,7 +213,7 @@ img {
 .show-xs {
   display: none!important
 }
-p { line-height: 1.2; margin: 0; margin-bottom: 30px; }
+p { line-height: 1.2; margin: 0; margin-bottom: 25px; }
 a { word-wrap: break-word } 
 strong,b { font-family: 'SupriaSans-Bold'; }
 em,i{

@@ -183,6 +183,10 @@
     .fbss-sec-1-grd-item-des {
 	    min-height: 255px;
 	}
+	.fbss-sec-5-enty-hdr{
+		padding-left: 20px;
+		padding-right: 20px;
+	}
     
 }
 
@@ -219,6 +223,10 @@
 	}
 	.fbss-sec-1-grd-item-img img{
 		display: block;
+	}
+	.fbss-sec-5-enty-hdr{
+		padding-left: 0;
+		padding-right: 0;
 	}
 
 }
