@@ -4,6 +4,7 @@
 	align-items: center;
     margin-left: -25px;
     margin-right: -25px;
+    display: none;
 }
 
 .hdr-rgt{
@@ -44,8 +45,8 @@
 	position: relative;
 }
 .bnr-des{
-	padding: 75px 0 90px;
-	max-width: 715px;
+	padding: 55px 0 75px;
+	max-width: 604px;
 	width: 100%;
 	text-align: center;
 	position: relative;
@@ -53,16 +54,17 @@
 }
 .bnr-des h1{
 	font-family: 'SupriaSans-Heavy';
+    font-size: 45px;
 }
 .bnr-des h3{
 	font-family: 'SupriaSans-Heavy';
 	color: #008abe;
-    font-size: 45px;
+    font-size: 30px;
 }
 
 .bnr-des h2{
 	 font-family: 'SupriaSans-BoldItalic';
-     font-size: 52px;
+     font-size: 37px;
      margin-bottom: 0;
 }
 
