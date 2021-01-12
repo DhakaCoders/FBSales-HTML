@@ -246,6 +246,9 @@
 		height: 73px;
 		width: 75px;
 	}
+	.fbsn-sec1-sub-sec-img-cntlr{
+      margin-bottom: 35px;
+    }
 }
 @media(max-width: 767px){
 	.fbsn-sec6-title{
@@ -253,6 +256,9 @@
 		padding-top: 7px;
 		padding-right: 15px;
 	}
+	.fbsn-sec1-sub-sec-img-cntlr{
+      margin-bottom: 30px;
+    }
 }
 @media(max-width: 575px){
 	.fbsn-sss-item-icon {

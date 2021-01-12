@@ -445,6 +445,9 @@ h6 {
     h5 {
       font-size: 24px;
     }
+    .fbsn-sec1-sub-sec-img-cntlr{
+      margin-bottom: 35px;
+    }
    
 }
 
@@ -473,6 +476,9 @@ h6 {
     }
     h5 {
       font-size: 22px;
+    }
+    .fbsn-sec1-sub-sec-img-cntlr{
+      margin-bottom: 30px;
     }
 
 }
