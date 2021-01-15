@@ -829,12 +829,7 @@ h6 {
 
 
 
-.ppr-15{
-  padding: 0 15px 0 0;
-}
-.ppr-5{
-  padding: 0 5px 0 0;
-}
+
 .fbsn-section1{
   padding-top: 40px;
 }
@@ -1379,12 +1374,6 @@ h6 {
   .fbsn-section1 .container .row .col-md-6{
     width: 50%!important;
     float: left!important;
-  }
-  .ppr-15{
-    padding: 0;
-  }
-  .ppr-5{
-    padding: 0;
   }
   .fbsn-sss-item{
     padding: 25px 25px 0 25px;
