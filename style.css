@@ -156,7 +156,7 @@ a,a:hover,a:focus,button:hover,button:focus {
 body {
   background-color: #fff;
   color: #191919;
-  font-size: 20px;
+  font-size: 24px;
   line-height: 30px;
   font-family: 'SupriaSans-Regular';
 }
@@ -215,12 +215,26 @@ img {
 }
 p { line-height: 1.2; margin: 0; margin-bottom: 25px; }
 a { word-wrap: break-word } 
-strong,b { font-family: 'SupriaSans-Bold'; }
+strong,b { font-weight: normal; font-family: 'SupriaSans-Bold'; }
 em,i{
-  font-family: 'SupriaSans-RegularItalic';
+  font-weight: normal; font-family: 'SupriaSans-RegularItalic';
 }
 u{
   text-decoration: underline;
+}
+.image-center-sm{
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+.row{
+  display: flex;
+}
+.pull-right {
+    order: 2;
+}
+.pull-left {
+    order: 1;
 }
 span.fl-txt-line-bg{
     font-family: 'SupriaSans-Bold';
@@ -287,22 +301,22 @@ ul.reset-list,
 }
 
 h1 {
-  font-size: 50px;
+  font-size: 60px;
 }
 h2 {
-  font-size: 46px;
+  font-size: 54px;
 }
 h3 {
-  font-size: 37px;
+  font-size: 47px;
 }
 h4 {
-  font-size: 34px;
+  font-size: 44px;
 }
 h5 {
-  font-size: 28px;
+  font-size: 38px;
 }
 h6 {
-  font-size: 20px;
+  font-size: 30px;
 }
 
 .h1,.h2,.h3,.h4,.h5,.h6,h1,h2,h3,h4,h5,h6 {
@@ -376,6 +390,7 @@ h6 {
 }
 .bnr-des h1{
   font-family: 'SupriaSans-Heavy';
+  font-size: 52px;
 }
 .bnr-des h1 br{
     display: block!important;
@@ -829,12 +844,12 @@ h6 {
 .fbsn-section1-cntlr strong {
     font-family: 'PTSerif-BoldItalic';
     font-size: 35px;
-    line-height: 45px;
 }
 .fbsn-section1-title{
   font-family: 'PTSerif-BoldItalic';
   margin-top: 10px;
   margin-bottom: 40px;
+  font-size: 50px;
 }
 
 .fbsn-sec1-sub-sec-img-cntlr{
@@ -860,7 +875,6 @@ h6 {
 
 .fbsn-sec-sub-sec3-title{
   font-family: 'PTSerif-BoldItalic';
-  font-size: 30px;
 }
 
 .fbsn-sec-sub-sec-2{
@@ -932,7 +946,9 @@ h6 {
   display: inline-block;
   text-align: center;
 }
-
+.fbsn-sec6-img{
+  justify-content: center;
+}
 .fbsn-section7{
   padding-top: 30px;
 }
@@ -969,7 +985,7 @@ h6 {
 }
 .fbsn-sec9-desc{
   float: left;
-  width: 50%;
+  width: 53%;
   z-index: 2;
 }
 
@@ -985,6 +1001,9 @@ h6 {
 .fbss-sec-1-enty-hdr h2,
 .fbss-sec-2-enty-hdr h2{
   margin-bottom: 45px;
+}
+.fbss-sec-2-enty-hdr h2 br{
+  display: none!important;
 }
 .fbss-sec-1-enty-hdr h2 span,
 .fbss-sec-2-enty-hdr h2 span{
@@ -1031,7 +1050,7 @@ h6 {
 
 .fbss-sec-1-grd-item-des{
   padding-bottom: 1px;
-  height: 210px;
+  height: 280px;
 }
 .fbss-sec-1-grd-item-des h6{
   font-family: 'SupriaSans-Bold';
@@ -1045,7 +1064,9 @@ h6 {
 .fbss-sec-1-grd-item-des p{
   margin-bottom: 17px;
 }
-
+.fbss-sec-1-grd-item-des p br{
+  display: none!important;
+}
 
 
 .fbss-sec-2{
@@ -1138,7 +1159,7 @@ h6 {
 
 @media(max-width: 1199px){
   body{
-    font-size: 17.2px;
+    font-size: 22px;
   }
     .hide-md{
       display: none!important;
@@ -1150,19 +1171,22 @@ h6 {
       padding-bottom: 20px;
     }
     h1 {
-      font-size: 46px;
+      font-size: 50px;
     }
     h2 {
-      font-size: 40px;
+      font-size: 44px;
     }
     h3 {
-      font-size: 34px;
+      font-size: 37px;
     }
     h4 {
-      font-size: 31px;
+      font-size: 34px;
     }
     h5 {
-      font-size: 26px;
+      font-size: 28px;
+    }
+    h6 {
+      font-size: 20px;
     }
     .header-innr{
         margin-left: 0;
@@ -1187,7 +1211,10 @@ h6 {
         background-position: right 0;
     }
     .fbsn-section1-cntlr strong{
-      font-size: 24px;
+      font-size: 27px;
+    }
+    .fbsn-section1-title{
+      font-size: 46px;
     }
     .fbsn-sec1-sub-sec-img1-cntlr{
       margin-right: 0;
@@ -1249,9 +1276,6 @@ h6 {
 }
 
 @media(max-width: 1023px){
-  body{
-    font-size: 18px;
-  }
   p br,
   br{
     display: none!important;
@@ -1264,6 +1288,9 @@ h6 {
     padding: 0;
     margin: 0;
     padding-bottom: 30px;
+  }
+  .row {
+      flex-wrap: wrap;
   }
   .pull-right{
     float: initial!important;
@@ -1396,19 +1423,22 @@ h6 {
 @media(max-width: 991px){
 
     h1 {
-      font-size: 42px;
+      font-size: 45px;
     }
     h2 {
-      font-size: 37px;
+      font-size: 40px;
     }
     h3 {
-      font-size: 31px;
+      font-size: 35px;
     }
     h4 {
-      font-size: 28px;
+      font-size: 32px;
     }
     h5 {
-      font-size: 24px;
+      font-size: 26px;
+    }
+    h6 {
+      font-size: 20px;
     }
     .fl-pkg-grd-controller > ul > li {
         width: 100%;
@@ -1510,8 +1540,7 @@ h6 {
     display: none!important;
   }
   .fbsn-section1-cntlr strong{
-    font-size: 20px;
-    margin-bottom: 15px;
+    font-size: 22px;
     display: inline-block;
     line-height: 1.2;
   }
@@ -1577,7 +1606,9 @@ h6 {
     padding-left: 0;
     padding-right: 0;
   }
-
+  .fbsn-section1-title {
+    font-size: 40px;
+  }
 }
 
 
@@ -1592,19 +1623,22 @@ h6 {
        margin-bottom: 20px;
     }
     h1 {
-      font-size: 38px;
+      font-size: 40px;
     }
     h2 {
-      font-size: 34px;
+      font-size: 35px;
     }
     h3 {
-      font-size: 28px;
+      font-size: 32px;
     }
     h4 {
-      font-size: 26px;
+      font-size: 28px;
     }
     h5 {
-      font-size: 22px;
+      font-size: 24px;
+    }
+    h6 {
+      font-size: 20px;
     }
    .fl-pkg-sec-bg-hdr h2 br{
         display: none;
@@ -1657,20 +1691,28 @@ h6 {
   .fbss-sec-5-enty-hdr h2 {
       font-size: 36px;
   }
-
+  .fbsn-section1-title {
+    font-size: 37px;
+  }
 }
 @media(max-width: 575px){
     h1 {
-      font-size: 33px;
+      font-size: 38px;
     }
     h2 {
-      font-size: 28px;
+      font-size: 34px;
     }
     h3 {
-      font-size: 25px;
+      font-size: 30px;
     }
     h4 {
+      font-size: 27px;
+    }
+    h5 {
       font-size: 23px;
+    }
+    h6 {
+      font-size: 20px;
     }
 
     .fl-creditcards{
@@ -1791,6 +1833,11 @@ span.fl-txt-line-bg{
     padding-bottom: 5px;
     padding-top: 5px;  
 }
+
+  .fbsn-section1-title {
+    font-size: 32px;
+  }
+
 }
 
 
