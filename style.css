@@ -1618,6 +1618,9 @@ h6 {
 
 
 @media(max-width: 767px){
+    body{
+      font-size: 20px;
+    }
     .hide-xs{
         display: none!important;
     }
