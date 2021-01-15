@@ -1234,7 +1234,7 @@ h6 {
     width: 600px;
   }
   .fbss-sec-1-grd-item-des{
-    height: 190px;
+    height: 265px;
   }
   .fbss-sec-2-enty-hdr h2 br{
     display: none;
@@ -1417,10 +1417,14 @@ h6 {
     background-image: none!important;
     min-height: initial;
     width: initial;
+    margin-top: 25px;
   }
   .fbss-sec-3-img img{
     display: block;
+    margin-right: auto;
+    margin-bottom: 10px;
   }
+
   .fbss-sec-3-text-module {
       padding-top: 0;
   }
