@@ -1,7 +1,7 @@
 @font-face {
   font-family: 'Barlow-Bold';
-  src: url('assets/fonts/Barlow-Bold/Barlow-Bold.woff2') format('woff2'),
-    url('assets/fonts/Barlow-Bold/Barlow-Bold.woff') format('woff');
+  src: url('assets/fonts/Barlow-Bold/barlow-bold.woff2') format('woff2'),
+    url('assets/fonts/Barlow-Bold/barlow-bold.woff') format('woff');
   font-weight: normal;
   font-style: normal;
   font-display: swap;
@@ -10,8 +10,8 @@
 
 @font-face {
   font-family: 'BarlowCondensed-Bold';
-  src: url('assets/fonts/BarlowCondensed-Bold/BarlowCondensed-Bold.woff2') format('woff2'),
-    url('assets/fonts/BarlowCondensed-Bold/BarlowCondensed-Bold.woff') format('woff');
+  src: url('assets/fonts/BarlowCondensed-Bold/barlowcondensed-bold.woff2') format('woff2'),
+    url('assets/fonts/BarlowCondensed-Bold/barlowcondensed-bold.woff') format('woff');
   font-weight: normal;
   font-style: normal;
   font-display: swap;
@@ -1613,6 +1613,40 @@ h6 {
   }
   .fl-pkg-grd-ftr ul li{
     font-size: 16px;
+  }
+  .bnr-img {
+      background: none;
+      position: relative;
+      z-index: 99;
+      max-width: 350px;
+      margin: 0 auto;
+      border-radius: 10px;
+      overflow: hidden;
+      margin-bottom: 25px;
+      box-shadow: 2px 4px 10px 0px rgba(145, 145, 145, 0.45);
+}
+  .bnr-img img{
+    display: block;
+  }
+.bnr-des {
+    padding: 45px 0 35px;
+    max-width: 100%;
+  }
+.fbsn-section1 {
+    padding-top: 30px;
+}
+.fbsn-section1-title{
+  margin-bottom: 30px;
+}
+span.fl-txt-line-bg{
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 5px;
+    padding-top: 5px;  
+}
+
+  .fbsn-section1-title {
+    font-size: 32px;
   }
 }
 
